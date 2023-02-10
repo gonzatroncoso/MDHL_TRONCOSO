@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo{
+    font-size: 40px;
+    margin: 80px 0px 0px 10%;
+    
+}
+
+.navegacion{
+    margin-left: 72%;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+nav a{
+    margin-right: 10px;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    padding: 3px 11px 3px 11px;
+    border: 2px solid black;
+}
+ a[href="#"]{
+    background-color: #008f39;
+} 
+
+
+.imagen-portada{
+    height: 50vh;
+    width: 80%;  
+}
+.centrar-imagen{
+    text-align: center
+}
+
+h2{
+    margin-left: 42%;
+    font-size: 30px;
+}
+
+section div {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.logo{
+    width: 180px;
+    margin-left: 160px;
+}
+
+.fechas{
+margin-left: 70px;
+}
+
+section div p{
+    margin-top: 5px;
+    margin-bottom: 12px;
+    margin-left: 30px;
+}
