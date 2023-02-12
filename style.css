@@ -2,44 +2,54 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 500;
 }
 
 .titulo{
     font-size: 40px;
-    margin: 80px 0px 0px 10%;
-    
+    font-weight: 900;
+    position: relative;
+    bottom: 20%;
+}
+
+h3,h4{
+    font-weight: 700;
 }
 
 .navegacion{
-    margin-left: 72%;
+    text-align: right;
     font-size: 18px;
-    margin-bottom: 10px;
+    position: relative;
+    bottom: 20%;
 }
+
 nav a{
     margin-right: 10px;
-    background-color: blue;
+    background-color: rgba(68 , 114 , 196);
     text-decoration: none;
     color: white;
     padding: 3px 11px 3px 11px;
     border: 2px solid black;
 }
  a[href="#"]{
-    background-color: #008f39;
+    background-color: rgba(112 , 173 , 71);
 } 
 
 
-.imagen-portada{
-    height: 50vh;
-    width: 80%;  
-}
-.centrar-imagen{
-    text-align: center
+header{
+    height: 40vh;
+    margin: 5% 5% 2% 5%;
+    background-image: url(../assets/design1_image2.jpg);
+    background-size: cover;
+    background-position: 0 40%;
+    
 }
 
 h2{
     margin-left: 42%;
     font-size: 30px;
+    font-weight: 900;
 }
 
 section div {
@@ -60,4 +70,9 @@ section div p{
     margin-top: 5px;
     margin-bottom: 12px;
     margin-left: 30px;
+}
+
+.imagen-hockey{
+    width: 260px;
+    margin-left: 220px;
 }
