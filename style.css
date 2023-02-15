@@ -47,10 +47,9 @@ header{
 }
 
 h2{
-    margin-left: 42%;
     font-size: 30px;
     font-weight: 900;
-    
+    text-align: center;
 }
 .contenedor-eventos{
     border: 1px solid black;
@@ -94,9 +93,71 @@ section div p{
 
 }
 
+.contenedor-img{
+    display: flex;
+    justify-content: center;
+}
+.imagen-hockey-about{
+   width: 30%;
+   margin: 0px 0px 35px 0px ; 
+}
 
 
+
+/* -------------------- */
 .txt-contacto{
     margin-left: 25px;
 }
 
+
+/* games */
+.games{
+    display: flex;
+    justify-content: center;
+}
+.h3-games{
+    /* margin-left: 100px; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+table{
+    margin-top: 30px;
+}
+
+tbody td {
+    padding: 12px 38px;
+  }
+
+  thead tr th{
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+.informacion{
+    margin-left: 5%;
+}
+
+.info-personal{
+    margin-left: 10%;
+}
+
+/* RULES */
+.h3-rules{
+    text-align: center;
+}
+
+h5,h6{
+    font-weight: 900;
+    font-size: 14px;
+    margin: 17px 0px;
+}
+
+.contenedor-rules{
+    margin: 40px 95px 20px 95px;
+    text-align: left;
+}
+
+.titulo-allplay{
+    margin-top: 22px;
+}
