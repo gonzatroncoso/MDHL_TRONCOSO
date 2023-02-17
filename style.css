@@ -43,7 +43,7 @@ nav a{
 
 header{
     height: 60vh;
-    background-image: url(../assets/design1_image2.jpg);
+    background-image: url(./assets/design1_image2.jpg);
     background-size: cover;
 }
 
