@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Comic Neue', cursive;
     font-weight: 500;
+    color: white;
+    background-color: rgb(19,34,50);
+    background-color: linear-gradient(180deg, rgba(19,34,50,1) 4%, rgba(2,77,113,1) 70%, rgba(57,115,153,1) 100%);
 }
 
 .titulo{
@@ -11,6 +14,7 @@
     font-weight: 900;
     position: relative;
     bottom: 20%;
+    text-align: center;
 }
 
 h3,h4{
@@ -38,12 +42,9 @@ nav a{
 
 
 header{
-    height: 40vh;
-    margin: 5% 5% 0% 5%;
+    height: 60vh;
     background-image: url(../assets/design1_image2.jpg);
     background-size: cover;
-    background-position: 0 40%;
-    
 }
 
 h2{
@@ -52,22 +53,24 @@ h2{
     text-align: center;
 }
 .contenedor-eventos{
-    border: 1px solid black;
     margin: 0% 5% 4% 5%;
 }
 
-section div {
-    display: inline-block;
-    margin-bottom: 50px;
-}
+
 
 .logo{
-    width: 180px;
-    margin-left: 160px;
+    width: 120px;
+    margin-left: 15px;
+}
+.seccion-index{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .fechas{
-margin-left: 70px;
+text-align: center;
 }
 
 section div p{
@@ -77,14 +80,16 @@ section div p{
 }
 
 .imagen-hockey{
-    width: 260px;
+    width: 360px;
     margin-left: 220px;
 }
 
 /* PAGINA ABOUT */
 
 .contenedor-acerca-de{
-    display: inline-flex;
+    display:flex;
+    justify-content: space-around;
+    align-items: end;
 }
 
 .acerca-de{
@@ -94,29 +99,25 @@ section div p{
 }
 
 .contenedor-img{
-    display: flex;
-    justify-content: center;
+   width: 50%;
 }
 .imagen-hockey-about{
-   width: 30%;
-   margin: 0px 0px 35px 0px ; 
+   width: 50%;
+   margin: 0px 0px 35px 80px ; 
 }
-
-
 
 /* -------------------- */
 .txt-contacto{
-    margin-left: 25px;
+    margin-bottom: 30px;
 }
 
 
-/* games */
+/* Games */
 .games{
     display: flex;
     justify-content: center;
 }
 .h3-games{
-    /* margin-left: 100px; */
     text-align: center;
     margin-bottom: 10px;
 }
@@ -127,19 +128,25 @@ table{
 
 tbody td {
     padding: 12px 38px;
+    background-color: #245C81;
   }
 
   thead tr th{
     font-size: 18px;
     font-weight: 900;
+    background-color: #5e5e5e;
   }
 
+.contenedor-info{
+    display: flex;
+}
+
 .informacion{
-    margin-left: 5%;
+    margin: 2% 0% 3% 10%;
 }
 
 .info-personal{
-    margin-left: 10%;
+    margin: 2% 0% 3% 10%;
 }
 
 /* RULES */
@@ -156,8 +163,65 @@ h5,h6{
 .contenedor-rules{
     margin: 40px 95px 20px 95px;
     text-align: left;
+    padding: 25px;
 }
+
 
 .titulo-allplay{
     margin-top: 22px;
+}
+
+/* REGISTRATION */
+
+label {
+    margin-right: 20px;
+    align-items: center;
+
+}
+input{
+    border: 1px solid white;
+    font-weight: 900;
+    text-align: center;
+}
+
+fieldset{
+    display: block;
+    justify-content: center;
+    margin-left: 30px;
+    margin: 19px;
+    border: none;
+}
+
+form{
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    border: 2px solid #245C81;
+    margin: 20px 300px 20px 300px;
+    border-radius: 10px;
+}
+
+.form-player{
+    margin: 40px;
+    justify-content: center;
+}
+.form-player label, input{
+    margin-bottom: 15px; 
+}
+
+.label{
+    margin-right: 20px;
+    align-items: center;
+    font-weight: 900;
+}
+
+.parrafo-form{
+    margin: 20px 120px;
+}
+
+.boton-form{
+    border-radius: 12px;
+    padding: 10px;
+    background-color:#245C81;
+    cursor: pointer;
 }
